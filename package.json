@@ -8,6 +8,7 @@
   "publisher": "Anonknowsit",
   "description": "This extension will make VSCode look like it emerges from the deepest sands.",
   "version": "0.0.1",
+  "icon": "call-of-the-desert.jpeg",
   "engines": {
     "vscode": "^1.91.0"
   },
