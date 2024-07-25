@@ -3,7 +3,7 @@
   "displayName": "Call of the Desert",
   "repository": { 
   "type": "git", 
-  "url": "https://github.com/anonknowsit/readme-template-generator.git" 
+  "url": "https://github.com/anonknowsit/call-of-the-desert.git" 
   },
   "publisher": "Anonknowsit",
   "description": "This extension will make VSCode look like it emerges from the deepest sands.",
