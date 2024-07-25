@@ -116,4 +116,4 @@ If you encounter any issues or have suggestions for improvements, please open an
 
 ### About the Author
 
-Created with ❤️ by [Anonknowsit](https://github.com/anonknowsit)
+Created with ❤️ by [Anonknowsit](https://github.com/anonknowsit).
