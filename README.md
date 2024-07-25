@@ -116,4 +116,4 @@ If you encounter any issues or have suggestions for improvements, please open an
 
 ### About the Author
 
-Created with ❤️ by [Anonknowsit](https://github.com/anonknowsit). Enjoy your journey through the digital dunes!
+Created with ❤️ by [Anonknowsit](https://github.com/anonknowsit)
