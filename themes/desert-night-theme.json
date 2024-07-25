@@ -1,0 +1,161 @@
+{
+    "name": "Desert Night",
+    "type": "dark",
+    "colors": {
+        "editor.background": "#1A1A2E",
+        "editor.foreground": "#D0D0C0",
+        "activityBarBadge.background": "#7D4E57",
+        "sideBarTitle.foreground": "#D0D0C0",
+        "list.activeSelectionBackground": "#2E2E43",
+        "list.inactiveSelectionBackground": "#2E2E43",
+        "list.hoverBackground": "#2E2E43",
+        "list.dropBackground": "#2E2E43",
+        "sideBar.background": "#15152A",
+        "sideBar.foreground": "#D0D0C0",
+        "sideBarSectionHeader.background": "#1A1A2E",
+        "sideBarSectionHeader.foreground": "#D0D0C0",
+        "editorGroupHeader.tabsBackground": "#15152A",
+        "tab.activeBackground": "#2E2E43",
+        "tab.inactiveBackground": "#1A1A2E",
+        "tab.activeForeground": "#D0D0C0",
+        "tab.inactiveForeground": "#808080",
+        "statusBar.background": "#7D4E57",
+        "statusBar.noFolderBackground": "#7D4E57",
+        "statusBar.foreground": "#D0D0C0"
+    },
+    "tokenColors": [
+        {
+            "name": "Comment",
+            "scope": ["comment", "punctuation.definition.comment"],
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "#7A8B8B"
+            }
+        },
+        {
+            "name": "Variables",
+            "scope": ["variable", "string constant.other.placeholder"],
+            "settings": {
+                "foreground": "#E6D2A8"
+            }
+        },
+        {
+            "name": "Colors",
+            "scope": ["constant.other.color"],
+            "settings": {
+                "foreground": "#F0E68C"
+            }
+        },
+        {
+            "name": "Invalid",
+            "scope": ["invalid", "invalid.illegal"],
+            "settings": {
+                "foreground": "#FF8A80"
+            }
+        },
+        {
+            "name": "Keyword, Storage",
+            "scope": ["keyword", "storage.type", "storage.modifier"],
+            "settings": {
+                "foreground": "#C19A6B"
+            }
+        },
+        {
+            "name": "Operator, Misc",
+            "scope": [
+                "keyword.control",
+                "constant.other.color",
+                "punctuation",
+                "meta.tag",
+                "punctuation.definition.tag",
+                "punctuation.separator.inheritance.php",
+                "punctuation.definition.tag.html",
+                "punctuation.definition.tag.begin.html",
+                "punctuation.definition.tag.end.html",
+                "punctuation.section.embedded",
+                "keyword.other.template",
+                "keyword.other.substitution"
+            ],
+            "settings": {
+                "foreground": "#E6BE8A"
+            }
+        },
+        {
+            "name": "Function, Special Method",
+            "scope": [
+                "entity.name.function",
+                "meta.function-call",
+                "variable.function",
+                "support.function",
+                "keyword.other.special-method"
+            ],
+            "settings": {
+                "foreground": "#FFB366"
+            }
+        },
+        {
+            "name": "String, Symbols, Inherited Class, Markup Heading",
+            "scope": [
+                "string",
+                "constant.other.symbol",
+                "constant.other.key",
+                "entity.other.inherited-class",
+                "markup.heading",
+                "markup.inserted.git_gutter",
+                "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
+            ],
+            "settings": {
+                "foreground": "#BADA55"
+            }
+        },
+        {
+            "name": "JSON Key",
+            "scope": [
+                "support.type.property-name.json"
+            ],
+            "settings": {
+                "foreground": "#E6BE8A"
+            }
+        },
+        {
+            "name": "JSON Value",
+            "scope": [
+                "string.quoted.double.json"
+            ],
+            "settings": {
+                "foreground": "#BADA55"
+            }
+        },
+        {
+            "name": "Class, Support",
+            "scope": [
+                "entity.name",
+                "support.type",
+                "support.class",
+                "support.other.namespace.use.php",
+                "meta.use.php",
+                "support.other.namespace.php",
+                "markup.changed.git_gutter",
+                "support.type.sys-types"
+            ],
+            "settings": {
+                "foreground": "#FFD700"
+            }
+        },
+        {
+            "name": "Number, Constant, Tag Attribute, Embedded",
+            "scope": [
+                "constant.numeric",
+                "constant.language",
+                "support.constant",
+                "constant.character",
+                "constant.escape",
+                "keyword.other.unit",
+                "keyword.other"
+            ],
+            "settings": {
+                "foreground": "#DEB887"
+            }
+        }
+    ]
+}

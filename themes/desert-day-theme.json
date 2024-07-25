@@ -1,0 +1,112 @@
+{
+    "name": "Desert Day",
+    "type": "dark",
+    "colors": {
+        "editor.background": "#2B2B2B",
+        "editor.foreground": "#D2D2D2",
+        "activityBarBadge.background": "#C19A6B",
+        "sideBarTitle.foreground": "#D2D2D2",
+        "list.activeSelectionBackground": "#3E3E3E",
+        "list.inactiveSelectionBackground": "#3E3E3E",
+        "list.hoverBackground": "#3E3E3E",
+        "list.dropBackground": "#3E3E3E",
+        "sideBar.background": "#252525",
+        "sideBar.foreground": "#D2D2D2",
+        "sideBarSectionHeader.background": "#2B2B2B",
+        "sideBarSectionHeader.foreground": "#D2D2D2",
+        "editorGroupHeader.tabsBackground": "#252525",
+        "tab.activeBackground": "#3E3E3E",
+        "tab.inactiveBackground": "#2B2B2B",
+        "tab.activeForeground": "#D2D2D2",
+        "tab.inactiveForeground": "#8C8C8C",
+        "statusBar.background": "#C19A6B",
+        "statusBar.noFolderBackground": "#C19A6B",
+        "statusBar.foreground": "#2B2B2B"
+    },
+    "tokenColors": [
+        {
+            "name": "Comment",
+            "scope": ["comment", "punctuation.definition.comment"],
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "#6B8E23"
+            }
+        },
+        {
+            "name": "Variables",
+            "scope": ["variable", "string constant.other.placeholder"],
+            "settings": {
+                "foreground": "#EEDD82"
+            }
+        },
+        {
+            "name": "Colors",
+            "scope": ["constant.other.color"],
+            "settings": {
+                "foreground": "#FFA07A"
+            }
+        },
+        {
+            "name": "Invalid",
+            "scope": ["invalid", "invalid.illegal"],
+            "settings": {
+                "foreground": "#FF5555"
+            }
+        },
+        {
+            "name": "Keyword, Storage",
+            "scope": ["keyword", "storage.type", "storage.modifier"],
+            "settings": {
+                "foreground": "#DEB887"
+            }
+        },
+        {
+            "name": "Operator, Misc",
+            "scope": [
+                "keyword.control",
+                "constant.other.color",
+                "punctuation",
+                "meta.tag",
+                "punctuation.definition.tag",
+                "punctuation.separator.inheritance.php",
+                "punctuation.definition.tag.html",
+                "punctuation.definition.tag.begin.html",
+                "punctuation.definition.tag.end.html",
+                "punctuation.section.embedded",
+                "keyword.other.template",
+                "keyword.other.substitution"
+            ],
+            "settings": {
+                "foreground": "#F0E68C"
+            }
+        },
+        {
+            "name": "Function, Special Method",
+            "scope": [
+                "entity.name.function",
+                "meta.function-call",
+                "variable.function",
+                "support.function",
+                "keyword.other.special-method"
+            ],
+            "settings": {
+                "foreground": "#FFD700"
+            }
+        },
+        {
+            "name": "String, Symbols, Inherited Class, Markup Heading",
+            "scope": [
+                "string",
+                "constant.other.symbol",
+                "constant.other.key",
+                "entity.other.inherited-class",
+                "markup.heading",
+                "markup.inserted.git_gutter",
+                "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
+            ],
+            "settings": {
+                "foreground": "#E9967A"
+            }
+        }
+    ]
+}
