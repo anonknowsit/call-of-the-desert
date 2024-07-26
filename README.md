@@ -1,7 +1,7 @@
 # Call of the Desert
 
 <p align=center>
-<img src="call-of-the-desert.jpeg" width="150" height="150"> 
+<img src="call-of-the-desert.jpeg" width="250" height="250"> 
 </p>
 
 <br>
