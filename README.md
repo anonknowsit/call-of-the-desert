@@ -1,5 +1,11 @@
 # Call of the Desert
 
+<center>
+<img src="call-of-the-desert.jpeg" width="150" height="150"> 
+</center>
+
+<br>
+
 Transform your VSCode environment into a serene desert landscape with this color theme extension. Experience the beauty of the desert, whether in daylight or under the stars.
 
 ## Features
