@@ -102,10 +102,41 @@
                 "entity.other.inherited-class",
                 "markup.heading",
                 "markup.inserted.git_gutter",
-                "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
+                "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
+                "string.unquoted.plain.out.yaml",
+                "string.quoted.single.yaml",
+                "string.quoted.double.yaml"
             ],
             "settings": {
-                "foreground": "#E9967A"
+                "foreground": "#ebc07f"
+            }
+        },
+        {
+            "name": "YAML Entity Name Tag",
+            "scope": ["entity.name.tag.yaml"],
+            "settings": {
+                "foreground": "#FF9900"
+            }
+        },
+        {
+            "name": "JSON Property Names",
+            "scope": [
+                "support.type.property-name.json.comments",
+                "support.type.property-name.json",
+                "meta.structure.dictionary.json > string.quoted.double.json"
+            ],
+            "settings": {
+                "foreground": "#FF9900"
+            }
+        },
+        {
+            "name": "JSON String",
+            "scope": [
+                "meta.structure.dictionary.value.json > string.quoted.double.json",
+                "meta.structure.dictionary.json > value.json > string.quoted.double.json"
+            ],
+            "settings": {
+                "foreground": "#ebc07f"
             }
         }
     ]
